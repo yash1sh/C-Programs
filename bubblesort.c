@@ -21,7 +21,7 @@ int main()
             count=1;
             }
         }
-        if(count==0)
+        if(!count)
         break;
     }
     printf("after sorting\n");
